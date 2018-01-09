@@ -83,6 +83,8 @@ $coins2 = array(
 
 The above says you've got some coins! Replace anything after `//` with your own comments. They could be notes about just about anything. Make sure the comments are just in one line after the `//`.
 
+After editing your coins-db (and hopefully getting it all correct with no errors), re-oad your app. Ex: `http://localhost:8888/yourcoins/`
+
 ## What else?
 
 You can extend the script and run it via cron every hour, for example, and send you an SMS or email. You'd have to have your SMS gateway and email server set up yourself.
