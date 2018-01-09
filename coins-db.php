@@ -2,6 +2,8 @@
 
 // Format for defining your coins
 /*
+This is your coin database
+
 $coins = array(
 	'account_name' => array(
 		'name' => 'coin_name_in_coinmarketcap',		>> must be in quotes
@@ -13,7 +15,7 @@ account_name => a name you give for an account, you can have multiple accounts f
 name => match the proper coin name based on https://api.coinmarketcap.com/v1/ticker/<coin_name>/ 
 amount => a number which could be a whole integer (1), or a float (0.2314341)
 
-See sample below
+See sample below.
 */
 
 $coins2 = array(
