@@ -35,7 +35,7 @@ $coins2 = array(
 		'name' => 'dash',
 		'amount' => 0.12345678	// Exodus (Anything after // is a comment, you can erase)
 	),
-	'all_neo' => array(
+	'neo' => array(
 		'name' => 'neo',
 		'amount' => 26	// from web wallet
 	),
