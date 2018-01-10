@@ -44,6 +44,8 @@ $coins2 = array(
 
 The above says you have one account, named `btc1`. This account has a coin named `bitcoin`, and you have an amount of `0.12345678 + 0.54321827`. The double front slashes means any text after it is a comment that will be ignored by the program. Why is it there? So you can see where the accounts are "stored", in this case, from Coins.ph and Coinbase. The program will run the addition operation.
 
+The name of the coin must conform with the coins tracked by coinmarketcap.com. Look at their API documentation to get actual coin names.
+
 The above means you can have an account `btc2`, which may also contain `bitcoin`, with different amounts. This is convenient if you are tracking multiple accounts of similar coins.
 
 A slightly more complex database could look like this:
